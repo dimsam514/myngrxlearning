@@ -38,6 +38,6 @@ export class ProductsPageComponent {
   }
 
   toggleShowProductCode() {
-    this.store.dispatch({ type: '[Products Page] Toggle Product Code' });
+    this.store.dispatch({ type: '[Products Page] Toggle Show Product Code'});
   }
 }
