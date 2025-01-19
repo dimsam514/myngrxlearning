@@ -13,7 +13,7 @@ export class ProductsPageComponent {
   products: Product[] = [];
   total = 0;
   loading = true;
-  showProductCode$ = this.store.select((state:any)=> state.products.showProductCode);
+  showProductCode$ = this.store.select((state:any) => state.products.showProductCode);
   errorMessage = '';
 
   constructor(private productsService: ProductsService, private store: Store) {
